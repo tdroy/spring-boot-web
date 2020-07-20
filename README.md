@@ -17,3 +17,5 @@ The property ```spring.mvc.static-path-pattern=/resources/**``` map all static c
 To run this execute ```mvn spring-boot:run -Drun.jvmArguments="-Xmx512m" [optional -Drun.profiles=dev]```
 If you running as jar then you can set memory during starting the jar as below
 ```java -Xmx512m [optinal -Dspring.profiles.active=dev] -jar app.jar```
+
+Favicon.ico place under static folder, default location of spring-boot.
